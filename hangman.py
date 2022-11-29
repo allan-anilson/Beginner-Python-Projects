@@ -26,7 +26,7 @@ def hangman():
             used_letters.add(user_letter)
             if(user_letter in word_letters):
                 word_letters.remove(user_letter)
-            else:
+            else: 
                 chances = chances - 1;
                 print("The letter in not in the word!")
         elif user_letter in used_letters:
